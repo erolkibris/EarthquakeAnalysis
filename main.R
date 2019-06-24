@@ -1,8 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(ggmap)
-library(tmap) 
-library(sf)
+
 
 data <- read.delim("C:/Users/Erol/Desktop/Earthquake Analysis/data.txt", stringsAsFactors = FALSE)
 
