@@ -34,6 +34,16 @@ earthquake <- data%>%
   arrange(Olus.tarihi, Olus.zamani)
 ```
 
+```R
+head(earthquake)
+   Olus.tarihi Olus.zamani Enlem Boylam Der.km. xM                                           Yer
+1  1901.05.12 12:32:00.00  39.8   30.5      15 5.3       TEPEBASI (ESKISEHIR) [North East  1.9 km]
+2  1903.04.04 00:00:00.00  39.0   28.0      20 5.6         PEKMEZCI-AKHISAR (MANISA) [West 3.0 km]
+3  1905.01.11 17:32:00.00  39.6   27.9      15 5.3          CAYIRHISAR- (BALIKESIR) [South 1.7 km]
+4  1905.04.15 05:36:00.00  40.2   29.0       6 5.7            NILUFER (BURSA) [South East  2.4 km]
+5  1905.04.30 16:13:00.00  39.8   30.5      22 5.5       TEPEBASI (ESKISEHIR) [North East  1.9 km]
+6  1905.05.01 19:00:01.00  39.9   31.1       5 4.9 AGACHISAR-ALPU (ESKISEHIR) [South West  4.6 km]
+```
 ## Short Description of Variables
 
 **Olus.tarihi** : the date when earthquake occured <br>
