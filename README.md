@@ -36,13 +36,13 @@ earthquake <- data%>%
 
 ## Short Description of Variables
 
-**Olus.tarihi** : the date when earthquake occured
-**Olus.zamani** : the time when earthquake occured
-**Enlem** : latitude
-**Boylam** : longitude
-**Der.km.** : depth of earthquake in km
-**xM** : magnitude 
-**Yer** : location 
+**Olus.tarihi** : the date when earthquake occured <br>
+**Olus.zamani** : the time when earthquake occured <br>
+**Enlem** : latitude <br>
+**Boylam** : longitude <br>
+**Der.km.** : depth of earthquake in km<br>
+**xM** : magnitude <br>
+**Yer** : location <br>
 
 ## Box Plots 
 
